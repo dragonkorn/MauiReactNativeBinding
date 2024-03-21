@@ -1,4 +1,5 @@
 ﻿using Microsoft.Maui.Controls.Compatibility.Hosting;
+using Microsoft.Maui.Hosting;
 
 namespace MauiDemoApp;
 
@@ -20,7 +21,8 @@ public static class MauiProgram
 #if IOS
                 handlers.AddCompatibilityRenderer(typeof(FlutterPage), typeof(FlutterPageRenderer));
 #elif ANDROID
-                handlers.AddHandler(typeof(FlutterView), typeof(FlutterViewHandler));
+                //handlers.AddHandler(typeof(FlutterView), typeof(FlutterViewHandler));
+                handlers.AddHandler(typeof(RNView), typeof(RNViewHandler));
 #endif
             });
 

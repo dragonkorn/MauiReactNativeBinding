@@ -4,5 +4,6 @@
              xmlns:MauiDemoApp="clr-namespace:MauiDemoApp"
              x:Class="MauiDemoApp.FlutterPage"
              Title="FlutterPage">
-    <MauiDemoApp:FlutterView  />
+    <MauiDemoApp:RNView  />
+    <!--<MauiDemoApp:FlutterView  />-->
 </ContentPage>

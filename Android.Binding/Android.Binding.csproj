@@ -9,4 +9,10 @@
   <ItemGroup>
     <LibraryProjectZip Include="jars\*" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidLibrary Update="jars\testLib-release.aar">
+      <Bind></Bind>
+      <Pack></Pack>
+    </AndroidLibrary>
+  </ItemGroup>
 </Project>

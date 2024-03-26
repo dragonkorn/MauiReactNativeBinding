@@ -23,6 +23,8 @@ namespace MauiDemoApp
     protected override Android.Views.View CreatePlatformView()
     {
         var view = (new Binding()).GetReactNativeView(MainActivity.instance);
+        // var view = (new Binding()).CreateHelloWorldView(MainActivity.instance);
+        // var view = (new Binding()).CreateViewFromAppCompat(MainActivity.instance);
         return view;
     }
 

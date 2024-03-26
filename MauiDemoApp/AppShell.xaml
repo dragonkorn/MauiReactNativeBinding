@@ -15,7 +15,7 @@
         Route="MainPage" />
 
         <ShellContent
-        Title="Flutter App"
+        Title="RN App"
         ContentTemplate="{DataTemplate local:FlutterPage}"
         Route="FlutterPage" />
     </TabBar>
